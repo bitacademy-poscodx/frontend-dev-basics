@@ -21,8 +21,12 @@
     3. []
     4. null
 - function
-
  */
+
+/*
+자바스크립트의 객체를 분류하는 또 다른 방법
+
+*/
 console.log("=== 기본타입(undefined, number, string, boolean) ======");
 var u;   // var u = undefined; 과 동일, 자바스크립트는 선언과 정의가 구분없다.
 var i = 10;
