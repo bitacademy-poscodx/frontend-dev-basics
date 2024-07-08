@@ -37,7 +37,7 @@ public class ApiController {
 
 	@ResponseBody
 	@RequestMapping(value="/post1", method=RequestMethod.POST)
-	public JsonResult json() {
+	public JsonResult post1() {
 		GuestbookVo vo = new GuestbookVo();
 		vo.setNo(1L);
 		vo.setName("둘리");
