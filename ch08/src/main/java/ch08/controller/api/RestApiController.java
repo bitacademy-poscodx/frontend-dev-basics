@@ -50,7 +50,7 @@ public class RestApiController {
 	public JsonResult delete(
 		@PathVariable("no") Long no, 
 		@RequestParam(value="password", required=true, defaultValue="") String password) {
-		System.out.println(password);
+		System.out.println("password:" + password);
 		return JsonResult.success(no);
 	}
 }
